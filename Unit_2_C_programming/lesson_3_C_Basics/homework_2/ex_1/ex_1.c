@@ -16,7 +16,6 @@
 //main entry point
 int main()
 {
-
     int a ;
     printf("\n############## Console-Output ##############");
     
@@ -24,7 +23,7 @@ int main()
     scanf("%d" , &a);
     fflush(stdin) ; fflush(stdout) ;
 
-    //logic gate
+    //logic gate to check the division reminder
     if(a%2 == 0)
     {
         printf("\n%d is even." , a);
@@ -33,7 +32,6 @@ int main()
         printf("\n%d is odd." , a);
     }
     printf("\n############################################");
-
     return 0;
 }
 
