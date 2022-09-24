@@ -25,11 +25,11 @@ int main()
     
     printf("\n1: ");
     scanf("%d" , &x);
-    fflush(stdin) ; fflush(stdout) ;
+    fflush(stdin) ; fflush(stdout) ;  //Flushing the input/output buffer, to avoid the VS code bug
     
     printf("\n2: ");
     scanf("%d" , &y);
-    fflush(stdin) ; fflush(stdout) ;
+    fflush(stdin) ; fflush(stdout) ;  //Flushing the input/output buffer, to avoid the VS code bug
 
     printf("\nSum = %d" , x+y);
     printf("\n###########################");

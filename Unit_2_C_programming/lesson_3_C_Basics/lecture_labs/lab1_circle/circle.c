@@ -25,8 +25,7 @@ int main()
     printf("\nEnter circle radius in cm: ");
     scanf("%f" , &radius);
     
-    //Flushing the input/output buffer, to avoid the VS code bug
-    fflush(stdin); fflush(stdout);
+    fflush(stdin); fflush(stdout); //Flushing the input/output buffer, to avoid the VS code bug
     
     //reading the user choice, 'area' or 'circumference'
     printf("Enter 'a' for the area, or 'c' for the circumference: ");

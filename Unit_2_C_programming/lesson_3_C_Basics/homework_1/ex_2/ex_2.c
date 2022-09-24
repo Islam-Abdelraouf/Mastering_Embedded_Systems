@@ -22,12 +22,12 @@ int main()
     printf("\n########## console output ##########");
     printf("\nPlease enter an integer number: ");
     scanf("%d" , &x);
-    fflush(stdin); fflush(stdout);
+    fflush(stdin); fflush(stdout);  //Flushing the input/output buffer, to avoid the VS code bug
     
     
     printf("\nYou entered: %d" , x);
     printf("\n####################################");
-    fflush(stdin); fflush(stdout);
+    fflush(stdin); fflush(stdout);  //Flushing the input/output buffer, to avoid the VS code bug
     
     return 0;
 }

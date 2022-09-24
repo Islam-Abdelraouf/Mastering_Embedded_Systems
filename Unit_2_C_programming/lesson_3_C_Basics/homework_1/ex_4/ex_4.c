@@ -23,11 +23,11 @@ int main()
 
     printf("\n1. ");
     scanf("%f" , &x);
-    fflush(stdin) ; fflush(stdout) ;
+    fflush(stdin) ; fflush(stdout) ;  //Flushing the input/output buffer, to avoid the VS code bug
 
     printf("\n2. ");
     scanf("%f" , &y);
-    fflush(stdin) ; fflush(stdout) ;
+    fflush(stdin) ; fflush(stdout) ;  //Flushing the input/output buffer, to avoid the VS code bug
 
     printf("\nProduct = %.3f" , x*y);
 

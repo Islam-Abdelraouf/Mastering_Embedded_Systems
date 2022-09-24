@@ -22,11 +22,11 @@ int main()
     
     printf("\nplease enter value of a: ");
     scanf("%f" , &a);
-    fflush(stdin) ; fflush(stdout) ;
+    fflush(stdin) ; fflush(stdout) ;  //Flushing the input/output buffer, to avoid the VS code bug
 
     printf("\nplease enter value of b: ");
     scanf("%f" , &b);
-    fflush(stdin) ; fflush(stdout) ;
+    fflush(stdin) ; fflush(stdout) ;  //Flushing the input/output buffer, to avoid the VS code bug
 
     temp = a; a = b; b = temp;
 

@@ -21,7 +21,7 @@ int main()
     
     printf("\nplease enter an integer you want to check: ");
     scanf("%d" , &a);
-    fflush(stdin) ; fflush(stdout) ;
+    fflush(stdin) ; fflush(stdout) ;  //Flushing the input/output buffer, to avoid the VS code bug
 
     //logic gate to check the division reminder
     if(a%2 == 0)

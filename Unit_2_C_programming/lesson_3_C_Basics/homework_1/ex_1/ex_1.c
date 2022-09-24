@@ -19,7 +19,7 @@ int main()
     printf("\n########## console output ##########");
     printf("\nC Programming");
     printf("\n####################################");
-    fflush(stdin); fflush(stdout);
+    fflush(stdin); fflush(stdout);  //Flushing the input/output buffer, to avoid the VS code bug
     
     return 0;
 }

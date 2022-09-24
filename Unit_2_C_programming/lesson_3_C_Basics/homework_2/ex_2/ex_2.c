@@ -25,7 +25,7 @@ begin:
     //getting information from the user
     printf("\nplease enter an alphabet to check, or '1' to exit: ");
     scanf("%c", &a);
-    fflush(stdin); fflush(stdout);
+    fflush(stdin); fflush(stdout);  //Flushing the input/output buffer, to avoid the VS code bug
 
     // logic gate to check the charactar type
     if (a == 'i' || a == 'I' || a == 'o' || a == 'O' || a == 'u' || a == 'U' ||
