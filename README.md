@@ -1,8 +1,10 @@
-## Hello World
+# Mastering Embedded Systems Diploma Repo
+
 ## This is Islam Abdelraouf
+
 An enthusiazm programmer, who has passion in Electronics and Embedded systems design.<br>
 
-``` cpp 
+``` cpp
 /****************** Unit2 - C Programming *******************/
   - [#] Lecture 1 >> Introduction to Embedded System {100%} ;
 
