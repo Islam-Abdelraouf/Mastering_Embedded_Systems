@@ -11,34 +11,25 @@
  *************************************************************/
 
 // Linked c/c++ libraries
-#include <stdio.h>
 
-// main entry point
+#include <stdio.h>
+#include <math.h>
 int main()
 {
-    char x;
+    int x,y,r;
+start:
+    printf("enter first number: \n");
+    scanf("%d",&x);
 
-    printf("\n############# Console-Output #############");
-begin:
-    printf("\nplease enter a character, or # to exit: ");
-    scanf("%c" , &x);
-    fflush(stdin) ; fflush(stdout) ;  //Flushing the input/output buffer, to avoid the VS code bug
+    fflush(stdin); fflush(stdout);
 
-    if((x > 65 && x < 90) || (x > 97 && x < 122))
-    {
-        printf("%c is an alphabet.", x);
-    }else if(x == 35)
-    {
-        goto finish ;
-    }else
-    {
-        printf("%c is not an alphabet.", x);
-    }
-    goto begin ;
-finish:
-    printf("\n###### YOU INITIATED EXIT COMMAND ######");
-    printf("\n########################################");
-    system("pause");
-    
-    return 0;
+    printf("enter second number: \n");
+    scanf("%d",&y);
+
+    r = x%y;
+    printf("reminder = %d", r);
+    printf("\n######################################\n");
+    goto start;
+return 0;
 }
+
