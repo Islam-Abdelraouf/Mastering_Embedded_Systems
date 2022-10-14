@@ -26,7 +26,7 @@ int main()
     printf("\n============== Console starts ===============\n");
 
     // picking the string from the user, using gets to pick a whole line including all spaces
-    printf("\nEnter a string with no spaces: ");
+    printf("\nEnter a string: ");
     fflush(stdin) ; fflush(stdout) ; 
     gets(str_normal); 
 
