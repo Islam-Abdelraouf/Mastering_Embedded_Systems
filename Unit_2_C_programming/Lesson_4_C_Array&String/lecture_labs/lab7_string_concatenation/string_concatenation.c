@@ -22,13 +22,13 @@ int main()
 
     printf("\n\n\n\n=============== Console Starts ================\n");
     
-    // add welcome    
+    // add 'welcome' to the string    
     strcat(phrase, str);             
     
-    // add to
+    // add 'to' to the string
     strcat(phrase, " to") ;  
 
-    // add Egypt, everybody                   
+    // add 'Egypt, everybody' to the phrase                   
     strcat(phrase, " Egypt, everybody") ;    
 
     printf("\n%s.\n", phrase);
