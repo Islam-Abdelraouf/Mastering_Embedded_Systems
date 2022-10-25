@@ -10,14 +10,14 @@ An enthusiazm programmer, who has passion in Electronics and Embedded systems de
 
   - [#] Lecture 2 >> Git Tutorial {100%} ;
   
-  - [ ] Lecture 3 >> C Basics     {100%} ;
+  - [#] Lecture 3 >> C Basics     {100%} ;
 
-  - [ ] Lecture 4 >> C Array & String {100%};
+  - [#] Lecture 4 >> C Array & String {100%};
 
-  - [ ] Lecture 5 >> C Functions {80%};
+  - [#] Lecture 5 >> C Functions {80%};
 
-  - [ ] Lecture 6 >> Structures Union Enum {---};
+  - [#] Lecture 6 >> Structures Union Enum {---};
 
-  - [ ] Lecture 7 >> Pre-processor directives in C {---};
+  - [#] Lecture 7 >> Pre-processor directives in C {---};
 
-  - [ ] Lecture 8 >> C Pointers {---} ;
+  - [#] Lecture 8 >> C Pointers {---} ;
